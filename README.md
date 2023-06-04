@@ -43,7 +43,7 @@ We evaluate our models on the dataset above. To generate the binary data for `fa
 ```
 python Pisces/scripts/gdsc_trans/data_process/run_process.py
 
-bash dds/scripts/gdsc_trans/data_process/run_binarize.sh 0
+bash Pisces/scripts/gdsc_trans/data_process/run_binarize.sh 0
 ```
 
 Note that you need to change the file paths accordingly. More original data can be found [here](https://figshare.com/articles/dataset/Pisces_dataset/23272049).
@@ -51,9 +51,9 @@ Note that you need to change the file paths accordingly. More original data can 
 ## Training and Test
 All training and test scripts can be seen in `Pisces/scripts/gdsc_trans`. For instance,
 ```
-bash dds/scripts/gdsc_trans/run.sh 0 0
+bash Pisces/scripts/gdsc_trans/run.sh 0 0
 
-bash dds/scripts/train_trans/inference/inf.sh 0 0
+bash Pisces/scripts/train_trans/inference/inf.sh 0 0
 ```
 
 ## Contact
