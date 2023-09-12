@@ -1,6 +1,5 @@
 # Pisces: A multi-modal data augmentation approach for drug combination synergy prediction
-This repository is the official implementation of [Pisces: A multi-modal data augmentation approach for drug combination synergy prediction](https://www.biorxiv.org/content/10.1101/2022.11.21.517439v1). The code is originally forked from [Fairseq](https://github.com/pytorch/fairseq) and [DVMP](https://github.com/microsoft/DVMP).
-
+This repository is the official implementation of [Pisces: A multi-modal data augmentation approach for drug combination synergy prediction](https://www.biorxiv.org/content/10.1101/2022.11.21.517439v1).
 ## Requirements and Installation
 * PyTorch version == 1.8.0
 * PyTorch Geometric version == 1.6.3
